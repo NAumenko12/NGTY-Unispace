@@ -166,21 +166,4 @@ JWT_SECRET=change-this-secret
 
 Для production-режима секреты нужно заменить и не хранить реальные значения в репозитории.
 
-## Что не хранится в Git
 
-В репозиторий не добавляются:
-
-- `node_modules/`;
-- `.next/`;
-- `.env.local`;
-- локальная база `data/unispace.db`;
-- локальные загрузки `public/uploads/`;
-- архивы `.zip`;
-- `__MACOSX/`;
-- `.DS_Store`;
-- временные и системные файлы.
-
-## Автор
-
-Науменко Евгений  
-GitHub: https://github.com/NAumenko12
