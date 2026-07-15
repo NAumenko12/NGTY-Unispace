@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Production
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database and local data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+public/uploads/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# System files
+.DS_Store
+__MACOSX/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# TypeScript / cache
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# IDE
+.idea/
+.vscode/
